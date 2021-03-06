@@ -1,0 +1,15 @@
+main: cc.squirtle.playerstatistics.App
+name: PlayerStatistics
+version: 0.2
+author: squirtlecc
+
+# Replace "sps" with the name of your command.
+commands:
+  playerstatistics:
+    description: Display player statistics on sidebar
+    aliases: [sps,playerstat]
+    usage: |
+      /help <command> display all command about this plugin
+      - /<command> [hide | show] to hidden or show stats
+      - /<command> <mined | death | fish | walk | playtime> displayer specific stats
+    # permission: yourplugin.yourcommandpermission
